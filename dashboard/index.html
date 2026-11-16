@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NEON GRID — pre-token protocol radar</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="brand-mark">◈</span>
+    <div>
+      <h1>NEON GRID</h1>
+      <p class="tagline">Pre-token protocols ranked by an implied value the snapshot itself prices</p>
+    </div>
+  </div>
+  <dl class="strip" id="strip"></dl>
+</header>
+<nav class="views" id="views">
+  <button class="view is-active" data-view="board">Radar board</button>
+  <button class="view" data-view="detail">Protocol detail</button>
+  <button class="view" data-view="market">Live market</button>
+  <button class="view" data-view="model">Model</button>
+</nav>
+<main id="main"></main>
+<footer class="foot">
+  <span id="asof"></span>
+  <span>Every figure comes from the sealed snapshot; the model's constants sit under Model.</span>
+</footer>
+<script src="../data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
